@@ -20,6 +20,7 @@ mkdir -p %{buildroot}%{rpmmacrodir}
 install -m 644 %{SOURCE0} %{buildroot}%{rpmmacrodir}
 
 %files
+%{rpmmacrodir}
 %{rpmmacrodir}/macros.module
 
 %changelog
